@@ -1,0 +1,63 @@
+{
+  "users": [
+    {
+      "id": "wxy",
+      "name": "wxy",
+      "password": "wxy123"
+    },
+    {
+      "id": "www",
+      "name": "www",
+      "password": "www123"
+    },
+    {
+      "id": "aaa",
+      "name": "aaa",
+      "password": "aaa123"
+    },
+    {
+      "id": "bbb",
+      "name": "bbb",
+      "password": "bbb123"
+    },
+    {
+      "id": "1",
+      "name": "1",
+      "password": "1"
+    },
+    {
+      "id": "王欣怡",
+      "name": "王欣怡",
+      "password": "wxy"
+    },
+    {
+      "id": "q",
+      "name": "q",
+      "password": "q"
+    },
+    {
+      "id": "am7LOPg"
+    },
+    {
+      "id": "ahh",
+      "name": "ahh",
+      "password": "ahh"
+    },
+    {
+      "id": "w",
+      "name": "w",
+      "password": "w"
+    }
+  ],
+  "config": {
+    "sitename": "WeNote",
+    "theme": "daytime",
+    "lang": "zh-cn"
+  },
+  "notes": [
+    {
+      "id": "0000",
+      "title": "untitled"
+    }
+  ]
+}
