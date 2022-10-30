@@ -54,11 +54,11 @@
                 //跳转到登录界面
                 // login()
                 alert('存在该用户，无需注册，请登录')
-                window.location.replace('./login.html')
+                window.location.replace('./index.html')
             }else{
                 register()
                 alert('注册成功！')
-                document.location.href='./login.html'
+                document.location.href='./index.html'
             }
          })
         .catch(err => console.log(err))  
