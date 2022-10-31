@@ -36,7 +36,7 @@
           headers: myHeaders,
           redirect: "follow",
         }
-        fetch(`http://123.60.44.50:3000/users`, requestOptions)
+        fetch(`https://db.api.orght.cn/users`, requestOptions)
         .then(response => response.json())
         .then(data => {
             for(let i = 0;i<data.length;i++){
@@ -75,7 +75,7 @@
           redirect: "follow",
         }
         requestOptions.body = JSON.stringify({id: id.value, name: names.value, password: md5(pwd.value)})
-        fetch(`http://123.60.44.50:3000/users`, requestOptions)
+        fetch(`https://db.api.orght.cn/users`, requestOptions)
         .then(response => response.json())
         .then(data => {
             console.log('data.length=',data.length)
